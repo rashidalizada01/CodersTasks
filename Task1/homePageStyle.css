@@ -1,0 +1,11 @@
+div {
+    color: gray;
+    margin: 15px;
+    font-size: 15px;
+    
+}
+
+div:hover {
+    color: aqua;
+    transition: 10s;
+}
