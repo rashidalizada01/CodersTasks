@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinePick - Мы выберем фильмы, а вы начинайте смотреть!</title>
+    <!-- Icon linki -->
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
+    <!-- Bootstrap linki -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            overflow-x: hidden;
+            background-color: rgb(4, 4, 107);
+        }
+
+        .navbar {
+            background-color: rgb(4, 4, 57) !important;
+        }
+
+        .navbar a {
+            color: white !important;
+        }
+
+        .navbar a:hover {
+            color: #3399ff !important;
+        }
+
+        .dropdown-menu {
+            background-color: rgb(4, 4, 57) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" width="95"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключить навигацию">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Категории
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Боевик</a></li>
+                        <li><a class="dropdown-item" href="#">Комедия</a></li>
+                        <li><a class="dropdown-item" href="#">Ужасы</a></li>
+                        <li><a class="dropdown-item" href="#">Драма</a></li>
+                        <li><a class="dropdown-item" href="#">Фэнтези / Приключения</a></li>
+                        <li><a class="dropdown-item" href="#">Анимация</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link enabled" aria-disabled="true">Акции</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link enabled" aria-disabled="true">Цены</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link enabled" aria-disabled="true">Расписание</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="homeAZ.html">AZ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="homeRU.html">RU</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="homeEN.html">EN</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск" />
+                <button class="btn btn-outline-light" type="submit">Найти</button>
+            </form>
+        </div>
+    </nav>
+
+    <p></p>
+
+    <div class="row">
+        <!-- Example Movie -->
+<div class="col-md-2 d-flex align-items-stretch">
+    <div class="card w-100 d-flex flex-column">
+        <img src="images/weapons.jpg" class="card-img-top" alt="Оружие">
+        <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Оружие</h5>
+            <p class="card-text flex-grow-1">Все дети из одного школьного класса — кроме одного — исчезают одновременно без
+                следа. Местные жители и семьи ищут причину.</p>
+            <a href="#" class="btn btn-primary mt-auto">Сеансы</a>
+        </div>
+    </div>
+</div>
+
+<!-- Freaky Friday 2 -->
+<div class="col-md-2 d-flex align-items-stretch">
+    <div class="card w-100 d-flex flex-column">
+        <img src="images/delisovCume2.jpg" class="card-img-top" alt="Фрики Пятница 2">
+        <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Фрики Пятница 2</h5>
+            <p class="card-text flex-grow-1">Прошли годы с тех пор, как Анна и её мать Тесс поменялись телами и исправили
+                свои отношения. Теперь собственная дочь Анны и </p>
+            <a href="#" class="btn btn-primary mt-auto">Сеансы</a>
+        </div>
+    </div>
+</div>
+
+<!-- Kulyas 2: Zikr-i Ayin -->
+<div class="col-md-2 d-flex align-items-stretch">
+    <div class="card w-100 d-flex flex-column">
+        <img src="images/Kulyas2ZikrIAyin.jpg" class="card-img-top" alt="Куляс 2: Зикр-ий Айн">
+        <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Куляс 2: Зикр-ий Айн</h5>
+            <p class="card-text flex-grow-1">Хелен обращается к ведьме, чтобы вернуть любимого человека с помощью запретных
+                заклинаний. Однако она не знает о священной </p>
+            <a href="#" class="btn btn-primary mt-auto">Сеансы</a>
+        </div>
+    </div>
+</div>
+
+<!-- Bad Boys 2 -->
+<div class="col-md-2 d-flex align-items-stretch">
+    <div class="card w-100 d-flex flex-column">
+        <img src="images/pisOglanlar.jpg" class="card-img-top" alt="Плохие Парни 2">
+        <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Плохие Парни 2</h5>
+            <p class="card-text flex-grow-1">Плохие парни пытаются адаптироваться к новой жизни, но их вновь втягивают в
+                преступный мир для последней миссии, от которой </p>
+            <a href="#" class="btn btn-primary mt-auto">Сеансы</a>
+        </div>
+    </div>
+</div>
+
+<!-- Fantastic Four: First Steps -->
+<div class="col-md-2 d-flex align-items-stretch">
+    <div class="card w-100 d-flex flex-column">
+        <img src="images/FantastikDord.jpg" class="card-img-top" alt="Фантастическая Четверка: Первые шаги">
+        <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Фантастическая Четверка: Первые шаги</h5>
+            <p class="card-text flex-grow-1">Рид Ричардс, Бен Гримм, Сью Шторм и её брат Джонни должны спасти Землю от
+                космического </p>
+            <a href="#" class="btn btn-primary mt-auto">Сеансы</a>
+        </div>
+    </div>
+</div>
+
+<!-- Superman -->
+<div class="col-md-2 d-flex align-items-stretch">
+    <div class="card w-100 d-flex flex-column">
+        <img src="images/Supermen.jpg" class="card-img-top" alt="Супермен">
+        <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Супермен</h5>
+            <p class="card-text flex-grow-1">Кларк Кент родился на планете Криптон, но вырос в простой семье на Земле. Он
+                ведет обычную человеческую жизнь, тайно становясь героем — </p>
+            <a href="#" class="btn btn-primary mt-auto">Сеансы</a>
+        </div>
+    </div>
+</div>
+<p></p>
+<!-- I Know What You Did Last Summer -->
+<div class="col-md-2 d-flex align-items-stretch">
+    <div class="card w-100 d-flex flex-column">
+        <img src="images/bilmirem.jpg" class="card-img-top" alt="Я знаю, что ты сделал прошлым летом">
+        <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Я знаю, что ты сделал прошлым летом</h5>
+            <p class="card-text flex-grow-1">Пятеро друзей становятся участниками ДТП с наездом и попыткой скрыться. Пока
+                они </p>
+            <a href="#" class="btn btn-primary mt-auto">Сеансы</a>
+        </div>
+    </div>
+</div>
+
+<!-- Naked Gun -->
+<div class="col-md-2 d-flex align-items-stretch">
+    <div class="card w-100 d-flex flex-column">
+        <img src="images/chilpaqtapancha.jpg" class="card-img-top" alt="Голый пистолет">
+        <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Голый пистолет</h5>
+            <p class="card-text flex-grow-1">Только один человек обладает навыками, чтобы возглавить полицейский отряд и
+                спасти мир — в самом нелепом из возможных способов.</p>
+            <a href="#" class="btn btn-primary mt-auto">Сеансы</a>
+        </div>
+    </div>
+</div>
+
+<!-- Jurassic World: Resurrection -->
+<div class="col-md-2 d-flex align-items-stretch">
+    <div class="card w-100 d-flex flex-column">
+        <img src="images/yura.jpg" class="card-img-top" alt="Мир Юрского периода: Воскрешение">
+        <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Мир Юрского периода: Воскрешение</h5>
+            <p class="card-text flex-grow-1">Группа исследователей отправляется в недоступные экваториальные регионы, </p>
+            <a href="#" class="btn btn-primary mt-auto">Сеансы</a>
+        </div>
+    </div>
+</div>
+
+<!-- My Magical Mom -->
+<div class="col-md-2 d-flex align-items-stretch">
+    <div class="card w-100 d-flex flex-column">
+        <img src="images/sihirliannem.jpg" class="card-img-top" alt="Моя волшебная мама">
+        <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Моя волшебная мама</h5>
+            <p class="card-text flex-grow-1">Моя волшебная мама рассказывает историю о феях и людях, которые вместе
+                преодолевают трудности, доказывая, что </p>
+            <a href="#" class="btn btn-primary mt-auto">Сеансы</a>
+        </div>
+    </div>
+</div>
+
+<!-- The Smurfs: The Movie -->
+<div class="col-md-2 d-flex align-items-stretch">
+    <div class="card w-100 d-flex flex-column">
+        <img src="images/smurflar kinoda.jpg" class="card-img-top" alt="Смурфики: Фильм">
+        <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Смурфики: Фильм</h5>
+            <p class="card-text flex-grow-1">Когда Папа Смурф похищен злыми волшебниками Разамелем и Гаргамелем, Смурфетта
+                ведет Смурфиков в настоящий мир, чтобы </p>
+            <a href="#" class="btn btn-primary mt-auto">Сеансы</a>
+        </div>
+    </div>
+</div>
+
+<!-- How to Train Your Dragon -->
+<div class="col-md-2 d-flex align-items-stretch">
+    <div class="card w-100 d-flex flex-column">
+        <img src="images/ejdaha.jpg" class="card-img-top" alt="Как приручить дракона">
+        <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Как приручить дракона</h5>
+            <p class="card-text flex-grow-1">Подросток Иккинг мечтает стать героем в своём племени викингов, которое давно
+                борется с драконами — пока не </p>
+            <a href="#" class="btn btn-primary mt-auto">Сеансы</a>
+        </div>
+    </div>
+</div>
+
+
+    </div>
+
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white pt-5 pb-4 mt-5">
+        <div class="container text-center text-md-start">
+            <div class="row">
+
+                <!-- Company/Logo -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h5 class="text-uppercase fw-bold">CinePick</h5>
+                    <p>Мы выбираем фильмы — вы просто наслаждайтесь просмотром!</p>
+                </div>
+
+                <!-- Navigation -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold">Ссылки</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Главная</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Фильмы</a></li>
+                        <li><a href="tel:+994502030510" class="text-white text-decoration-none">Контакты</a></li>
+                    </ul>
+                </div>
+
+                <!-- App Store & Play Store -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold">Наше мобильное приложение</h6>
+                    <a href="https://play.google.com" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                            alt="Google Play" style="height: 40px;" class="me-2 mt-2">
+                    </a>
+                    <a href="https://www.apple.com/app-store/" target="_blank">
+                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                            alt="App Store" style="height: 40px;" class="mt-2">
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Bottom Text -->
+            <div class="text-center pt-3 border-top border-secondary mt-3">
+                <p class="mb-0">© 2025 CinePick. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

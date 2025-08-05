@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinePick - We'll choose the movies, you start watching!</title>
+    <!-- Icon linki -->
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
+    <!-- Bootstrap linki -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            overflow-x: hidden;
+            background-color: rgb(4, 4, 107);
+        }
+
+        .navbar {
+            background-color: rgb(4, 4, 57) !important;
+        }
+
+        .navbar a {
+            color: white !important;
+        }
+
+        .navbar a:hover {
+            color: #3399ff !important;
+        }
+
+        .dropdown-menu {
+            background-color: rgb(4, 4, 57) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" width="95"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Categories
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Comedy</a></li>
+                        <li><a class="dropdown-item" href="#">Horror</a></li>
+                        <li><a class="dropdown-item" href="#">Drama</a></li>
+                        <li><a class="dropdown-item" href="#">Fantasy / Adventure</a></li>
+                        <li><a class="dropdown-item" href="#">Animation</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link enabled" aria-disabled="true">Promotions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link enabled" aria-disabled="true">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link enabled" aria-disabled="true">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="homeAZ.html">AZ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="homeRU.html">RU</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="homeEN.html">EN</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <p></p>
+
+    <div class="row">
+        <!-- Example Movie -->
+        <div class="col-md-2 d-flex align-items-stretch">
+            <div class="card w-100 d-flex flex-column">
+                <img src="images/weapons.jpg" class="card-img-top" alt="Weapons">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Weapons</h5>
+                    <p class="card-text flex-grow-1">All the children in a school class — except one — disappear at the
+                        same time
+                        without a trace. Locals and families search for the cause </p>
+                    <a href="#" class="btn btn-primary mt-auto">Showtimes</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Freaky Friday 2 -->
+        <div class="col-md-2 d-flex align-items-stretch">
+            <div class="card w-100 d-flex flex-column">
+                <img src="images/delisovCume2.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Freaky Friday 2</h5>
+                    <p class="card-text flex-grow-1">Years have passed since Anna and her mother Tess swapped bodies and
+                        fixed their
+                        relationship. Now, Anna’s own daughter and
+                    </p>
+                    <a href="#" class="btn btn-primary mt-auto">Showtimes</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kulyas 2: Zikr-i Ayin -->
+        <div class="col-md-2 d-flex align-items-stretch">
+            <div class="card w-100 d-flex flex-column">
+                <img src="images/Kulyas2ZikrIAyin.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Kulyas 2: Zikr-i Ayin</h5>
+                    <p class="card-text flex-grow-1">Helen turns to a witch to bring back the man she loves using
+                        forbidden spells.
+                        However, she is unaware of a sacred bloodline she </p>
+                    <a href="#" class="btn btn-primary mt-auto">Showtimes</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bad Boys 2 -->
+        <div class="col-md-2 d-flex align-items-stretch">
+            <div class="card w-100 d-flex flex-column">
+                <img src="images/pisOglanlar.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Bad Boys 2</h5>
+                    <p class="card-text flex-grow-1">The Bad Boys are trying to adapt to a new life, but they are called
+                        back into
+                        crime for one last mission they can’t refuse.</p>
+                    <a href="#" class="btn btn-primary mt-auto">Showtimes</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fantastic Four: First Steps -->
+        <div class="col-md-2 d-flex align-items-stretch">
+            <div class="card w-100 d-flex flex-column">
+                <img src="images/FantastikDord.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Fantastic Four: First Steps</h5>
+                    <p class="card-text flex-grow-1">Reed Richards, Ben Grimm, Sue Storm, and her brother Johnny must
+                        save Earth
+                        from the cosmic god </p>
+                    <a href="#" class="btn btn-primary mt-auto">Showtimes</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Superman -->
+        <div class="col-md-2 d-flex align-items-stretch">
+            <div class="card w-100 d-flex flex-column">
+                <img src="images/Supermen.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Superman</h5>
+                    <p class="card-text flex-grow-1">Clark Kent was born on the planet Krypton but raised by a simple
+                        family on
+                        Earth. He lives a human life while secretly becoming the hero </p>
+                    <a href="#" class="btn btn-primary mt-auto">Showtimes</a>
+                </div>
+            </div>
+        </div>
+        <p></p>
+        <!-- I Know What You Did Last Summer -->
+        <div class="col-md-2 d-flex align-items-stretch">
+            <div class="card w-100 d-flex flex-column">
+                <img src="images/bilmirem.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">I Know What You Did Last Summer</h5>
+                    <p class="card-text flex-grow-1">Five friends are involved in a hit-and-run accident. As they try to
+                        forget the
+                        past, they are haunted by </p>
+                    <a href="#" class="btn btn-primary mt-auto">Showtimes</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Naked Gun -->
+        <div class="col-md-2 d-flex align-items-stretch">
+            <div class="card w-100 d-flex flex-column">
+                <img src="images/chilpaqtapancha.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Naked Gun</h5>
+                    <p class="card-text flex-grow-1">Only one man has the skills to lead a police squad and save the
+                        world — in the
+                        most ridiculous way imaginable.</p>
+                    <a href="#" class="btn btn-primary mt-auto">Showtimes</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jurassic World: Resurrection -->
+        <div class="col-md-2 d-flex align-items-stretch">
+            <div class="card w-100 d-flex flex-column">
+                <img src="images/yura.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Jurassic World: Resurrection</h5>
+                    <p class="card-text flex-grow-1">A group of researchers travels to unreachable equatorial regions to
+                        face three
+                        massive prehistoric </p>
+                    <a href="#" class="btn btn-primary mt-auto">Showtimes</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- My Magical Mom -->
+        <div class="col-md-2 d-flex align-items-stretch">
+            <div class="card w-100 d-flex flex-column">
+                <img src="images/sihirliannem.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">My Magical Mom</h5>
+                    <p class="card-text flex-grow-1">My Magical Mom tells the story of fairies and humans standing
+                        together in tough
+                        times, proving that unity brings magic to life.</p>
+                    <a href="#" class="btn btn-primary mt-auto">Showtimes</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Smurfs: The Movie -->
+        <div class="col-md-2 d-flex align-items-stretch">
+            <div class="card w-100 d-flex flex-column">
+                <img src="images/smurflar kinoda.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">The Smurfs: The Movie</h5>
+                    <p class="card-text flex-grow-1">When Papa Smurf is kidnapped by the evil wizards Razamel and
+                        Gargamel,
+                        Smurfette leads </p>
+                    <a href="#" class="btn btn-primary mt-auto">Showtimes</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- How to Train Your Dragon -->
+        <div class="col-md-2 d-flex align-items-stretch">
+            <div class="card w-100 d-flex flex-column">
+                <img src="images/ejdaha.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">How to Train Your Dragon</h5>
+                    <p class="card-text flex-grow-1">Teenager Hiccup dreams of being a hero in his Viking tribe, which
+                        has long
+                        battled dragons — until he </p>
+                    <a href="#" class="btn btn-primary mt-auto">Showtimes</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white pt-5 pb-4 mt-5">
+        <div class="container text-center text-md-start">
+            <div class="row">
+
+                <!-- Company/Logo -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h5 class="text-uppercase fw-bold">CinePick</h5>
+                    <p>Let us pick the movies — you just enjoy watching!</p>
+                </div>
+
+                <!-- Navigation -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold">Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Movies</a></li>
+                        <li><a href="tel:+994502030510" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- App Store & Play Store -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold">Our Mobile App</h6>
+                    <a href="https://play.google.com" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                            alt="Google Play" style="height: 40px;" class="me-2 mt-2">
+                    </a>
+                    <a href="https://www.apple.com/app-store/" target="_blank">
+                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                            alt="App Store" style="height: 40px;" class="mt-2">
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Bottom Text -->
+            <div class="text-center pt-3 border-top border-secondary mt-3">
+                <p class="mb-0">© 2025 CinePick. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
