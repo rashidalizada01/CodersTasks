@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #191A1C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 30px;
+
+}
+
+a {
+    color: #6375FF;
+    cursor: pointer;
+}
+
+.register__page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+    /* margin olmadiqda scroll yaranmir */
+    margin: 30px;
+}
+
+#google,
+#register {
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+    /* align-self: stretch; */
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    cursor: pointer;
+    height: 50px;
+    margin: 20px 0px;
+}
+
+#google {
+    background: var(--Main-Dark_200, #2D2E30);
+}
+
+#register {
+    background: var(--Main-Dark_200, #5367FE);
+}
+
+/* hr{
+    width: 50%;
+}
+.page span{
+        color: rgba(255, 255, 255, 0.60);} */
+
+.or {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.or hr {
+    flex: 1;
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.or span {
+    color: rgba(255, 255, 255, 0.60);
+
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.form input {
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 10px 0px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
