@@ -116,3 +116,17 @@ viewAllBtn.addEventListener("click", () => {
   viewAllBtn.querySelector("a").textContent = showingAll ? "Show Less" : "View All";
   renderProducts();
 });
+
+
+
+
+const closeBtn = document.querySelector('.close__logo');
+const salesBar = document.querySelector('.sales');
+
+closeBtn.addEventListener('click', function () {
+  salesBar.classList.add('closed');
+  setTimeout(() => {
+    salesBar.style.display = 'none';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, 600); // transition müddəti ilə eyni olmalıdır
+});
