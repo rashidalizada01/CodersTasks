@@ -459,6 +459,21 @@ footer {
     z-index: 999;
 }
 
-.cart:hover .cart-popup {
+.cart-popup {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 45px;
+    width: 300px;
+    background: white;
+    border: 1px solid #aaa;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.cart-popup.show {
     display: block;
 }
