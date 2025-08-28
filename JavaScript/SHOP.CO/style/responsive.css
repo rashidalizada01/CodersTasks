@@ -1,6 +1,6 @@
-@media (max-width: 768px) {
+@media (max-width: 1070px) {
     body {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
     .hero {
@@ -17,12 +17,10 @@
         align-items: center;
     }
 }
-@media (max-width: 1200px) {
-body {
-  overflow: hidden;
-}
+@media (max-width: 1235px) {
+
 
     .hero{
-        gap: auto;
+        gap: 1px;
     }
 }
